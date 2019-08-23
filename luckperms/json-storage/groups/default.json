@@ -1,0 +1,13 @@
+{
+  "name": "default",
+  "permissions": [
+    {
+      "permission": "minecraft.command.ban",
+      "value": false
+    },
+    {
+      "permission": "minecraft.command.help",
+      "value": true
+    }
+  ]
+}

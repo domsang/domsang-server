@@ -1,0 +1,13 @@
+{
+  "uuid": "5c998586-a141-4936-b37a-25f898355c88",
+  "name": "ogrezem",
+  "primaryGroup": "default",
+  "parents": [
+    {
+      "group": "default"
+    },
+    {
+      "group": "owner"
+    }
+  ]
+}

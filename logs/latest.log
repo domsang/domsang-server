@@ -1,0 +1,184 @@
+[04:05:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[04:05:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[04:05:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[04:05:22] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2838 for Minecraft 1.12.2 loading
+[04:05:22] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_161, running on Windows 7:amd64:6.1, installed at c:\Progra~1\Java\jre1.8.0_161
+[04:05:22] [main/INFO] [FML]: Searching C:\Users\Ogrezem\Desktop\firstServer\.\mods for mods
+[04:05:22] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2838-7.1.7-RC3902.jar
+[04:05:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:05:22] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[04:05:22] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/C:/Users/Ogrezem/Desktop/firstServer/./mods/spongeforge-1.12.2-2838-7.1.7-RC3902.jar Service=LaunchWrapper Env=SERVER
+[04:05:22] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[04:05:22] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[04:05:22] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[DEFAULT]
+[04:05:22] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[PREINIT]
+[04:05:22] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[INIT]
+[04:05:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[04:05:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:05:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:05:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:05:24] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[04:05:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:05:24] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[04:05:24] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@79a1728c
+[04:05:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[04:05:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[04:05:25] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[04:05:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[04:05:25] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[04:05:26] [main/WARN] [mixin]: @Mixin target net.minecraft.block.state.BlockStateContainer$StateImplementation is public in mixins.common.api.json:mcp.block.state.StateImplementationMixin_API and should be specified in value
+[04:05:30] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_189509_E in mixins.common.core.json:world.WorldMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[04:05:31] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[04:05:32] [main/WARN] [mixin]: Method overwrite conflict for accessor$dropRecordItem in mixins.common.core.json:block.BlockJukeboxAccessor, previously written by org.spongepowered.common.mixin.core.block.BlockJukeboxMixin. Skipping method.
+[04:05:35] [main/WARN] [mixin]: Method overwrite conflict for accessor$getScoreboard in mixins.common.core.json:scoreboard.ScorePlayerTeamAccessor, previously written by org.spongepowered.common.mixin.core.scoreboard.ScorePlayerTeamMixin. Skipping method.
+[04:05:35] [main/WARN] [mixin]: Method overwrite conflict for accessor$setScoreboard in mixins.common.core.json:scoreboard.ScorePlayerTeamAccessor, previously written by org.spongepowered.common.mixin.core.scoreboard.ScorePlayerTeamMixin. Skipping method.
+[04:05:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[04:05:37] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2838 Initialized
+[04:05:37] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[04:05:37] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[04:05:37] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[04:05:37] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/Ogrezem/Desktop/firstServer/./mods/spongeforge-1.12.2-2838-7.1.7-RC3902.jar!/mcmod.info
+[04:05:38] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[04:05:43] [Server thread/INFO] [FML]: Searching C:\Users\Ogrezem\Desktop\firstServer\.\mods for mods
+[04:05:44] [Server thread/INFO] [FML]: Forge Mod Loader has identified 10 mods to load
+[04:05:44] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[04:05:44] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[04:05:44] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[04:05:44] [Server thread/WARN] [FML]: Missing English translation for ic2: assets/ic2/lang/en_us.lang
+[04:05:44] [Server thread/WARN] [FML]: Missing English translation for luckperms: assets/luckperms/lang/en_us.lang
+[04:05:44] [Server thread/WARN] [FML]: Missing English translation for worldedit: assets/worldedit/lang/en_us.lang
+[04:05:44] [Server thread/WARN] [Sponge]: The mod spongeforge was designed for forge 1.12.2-14.23.5.2838 but version 14.23.5.2838 is in use. It may not work properly.
+[04:05:44] [Server thread/WARN] [Sponge]: The mod spongeforge was designed for forge 1.12.2-14.23.5.2838 but version 14.23.5.2838 is in use. It may not work properly.
+[04:05:44] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, ic2, luckperms, worldedit] at CLIENT
+[04:05:44] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, ic2, luckperms, worldedit] at SERVER
+[04:05:44] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
+[04:05:45] [Server thread/WARN] [mixin]: Method overwrite conflict for accessor$getPlayers in mixins.common.core.json:server.management.PlayerchunkMapEntryAccessor, previously written by org.spongepowered.common.mixin.core.server.management.PlayerChunkMapEntryMixin. Skipping method.
+[04:05:45] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[04:05:45] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
+[04:05:45] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[04:05:45] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[04:05:45] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[04:05:45] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
+[04:05:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:         __    
+[04:05:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:   |    |__)   LuckPerms v4.3.75
+[04:05:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:   |___ |      Running on Sponge - SpongeForge
+[04:05:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[04:05:46] [Server thread/INFO] [luckperms]: Loading configuration...
+[04:05:46] [Server thread/INFO] [luckperms]: Loading storage provider... [JSON]
+[04:05:47] [Server thread/INFO] [luckperms]: Loading internal permission managers...
+[04:05:47] [Server thread/INFO] [luckperms]: Registering PermissionService...
+[04:05:47] [Server thread/INFO] [luckperms]: Performing initial data load...
+[04:05:47] [Server thread/INFO] [luckperms]: Successfully enabled. (took 1175ms)
+[04:05:49] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
+[04:05:49] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[04:05:50] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[04:05:56] [Server thread/WARN] [Sponge]: Could not find type owning class, assigning fallback id: ic2:block_ore_type
+[04:05:56] [Server thread/WARN] [Sponge]: Could not find type owning class, assigning fallback id: ic2:block_scaffold_type
+[04:05:56] [Server thread/WARN] [Sponge]: Could not find east owning class, assigning fallback id: ic2:block_i_c2_fence_east
+[04:05:56] [Server thread/WARN] [Sponge]: Could not find north owning class, assigning fallback id: ic2:block_i_c2_fence_north
+[04:05:56] [Server thread/WARN] [Sponge]: Could not find south owning class, assigning fallback id: ic2:block_i_c2_fence_south
+[04:05:56] [Server thread/WARN] [Sponge]: Could not find type owning class, assigning fallback id: ic2:block_i_c2_fence_type
+[04:05:56] [Server thread/WARN] [Sponge]: Could not find west owning class, assigning fallback id: ic2:block_i_c2_fence_west
+[04:05:56] [Server thread/WARN] [Sponge]: Could not find type owning class, assigning fallback id: ic2:block_sheet_type
+[04:05:56] [Server thread/WARN] [Sponge]: Could not find type owning class, assigning fallback id: ic2:block_tex_glass_type
+[04:05:56] [Server thread/WARN] [Sponge]: Could not find type owning class, assigning fallback id: ic2:block_foam_type
+[04:05:56] [Server thread/WARN] [Sponge]: Could not find type owning class, assigning fallback id: ic2:block_wall_type
+[04:05:56] [Server thread/WARN] [Sponge]: Could not find type owning class, assigning fallback id: ic2:block_mining_pipe_type
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 352 out of 352 recipes for shaped recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 13 out of 13 recipes for extractor recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 86 out of 86 recipes for macerator recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[04:05:57] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
+[04:05:57] [Server thread/INFO] [FML]: Applying holder lookups
+[04:05:57] [Server thread/INFO] [FML]: Holder lookups applied
+[04:05:57] [Server thread/INFO] [FML]: Applying holder lookups
+[04:05:57] [Server thread/INFO] [FML]: Holder lookups applied
+[04:05:57] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
+[04:05:57] [Server thread/INFO] [FML]: Applying holder lookups
+[04:05:57] [Server thread/INFO] [FML]: Holder lookups applied
+[04:05:57] [Server thread/INFO] [FML]: Applying holder lookups
+[04:05:57] [Server thread/INFO] [FML]: Holder lookups applied
+[04:05:57] [Server thread/INFO] [FML]: Injecting itemstacks
+[04:05:57] [Server thread/INFO] [FML]: Itemstack injection complete
+[04:05:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[04:05:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[04:05:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[04:05:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25588
+[04:05:57] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[04:05:58] [Server thread/INFO] [FML]: Applying holder lookups
+[04:05:58] [Server thread/INFO] [FML]: Holder lookups applied
+[04:05:58] [Server thread/INFO] [FML]: Injecting itemstacks
+[04:05:58] [Server thread/INFO] [FML]: Itemstack injection complete
+[04:05:58] [Server thread/INFO] [worldedit]: WorldEdit for Sponge (version 6.1.10-SNAPSHOT) is loaded
+[04:05:58] [Server thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[04:05:58] [Server thread/INFO] [ic2.General]: ic2 version 2.8.187-ex112 loaded.
+[04:05:58] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 10 mods
+[04:05:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[04:05:59] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
+[04:05:59] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
+[04:05:59] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[04:06:00] [Server thread/INFO] [FML]: Applying holder lookups
+[04:06:00] [Server thread/INFO] [FML]: Holder lookups applied
+[04:06:00] [Server thread/WARN] [mixin]: Method overwrite conflict for accessor$getListeners in mixins.common.core.json:world.border.WorldBorderAccessor, previously written by org.spongepowered.common.mixin.core.world.border.WorldBorderMixin. Skipping method.
+[04:06:00] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[04:06:00] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
+[04:06:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world world (minecraft:overworld/0)
+[04:06:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 21%
+[04:06:02] [Server thread/INFO] [Sponge]: Loading world [world] (minecraft:overworld/0)
+[04:06:03] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[04:06:03] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
+[04:06:03] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (minecraft:nether/-1)
+[04:06:03] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[04:06:03] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
+[04:06:03] [Server thread/INFO] [Sponge]: Loading world [DIM1] (minecraft:the_end/1)
+[04:06:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (4,804s)! For help, type "help" or "?"
+[04:06:03] [Server thread/INFO] [worldedit]: Using com.sk89q.worldedit.sponge.adapter.impl.Sponge_1_12_Impl as the Sponge adapter
+[04:06:33] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player ogrezem is 5c998586-a141-4936-b37a-25f898355c88
+[04:06:33] [Netty Server IO #2/INFO] [FML]: Client protocol version 2
+[04:06:33] [Netty Server IO #2/INFO] [FML]: Client attempting to join with 20 mods : minecraft@1.12.2,tconstruct@1.12.2-2.12.0.157,ae2stuff@0.7.0.4,opensecurity@1.0-35,FML@8.0.99.99,millenaire@Mill?naire 7.2.1,tinkersoc@0.6,jei@4.15.0.289,appliedintegrations@8.0.16,opencomputers|core@1.7.4.153,nei@2.4.3,forge@14.23.5.2838,bdlib@1.14.3.12,codechickenlib@3.2.3.357,ic2@2.8.187-ex112,mantle@1.12-1.3.3.55,opencomputers@1.7.4.153,mcp@9.42,forestry@5.8.2.394,appliedenergistics2@rv6-stable-7
+[04:06:33] [Netty Server IO #2/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge, luckperms, worldedit] at CLIENT
+[04:06:34] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[04:06:34] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ogrezem [/127.0.0.1:56769] logged in with entity id [299] in world (minecraft:overworld/0) at (-54.307059878648424, 89.0, 316.1439411822573).
+[04:06:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ogrezem joined the game
+[04:06:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Unknown command. Try /help for a list of commands
+[04:06:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [LP] Please note that Server Operator status has no effect on Sponge permission checks when a permission plugin is installed. Please edit user data directly.
+[04:06:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Opped ogrezem
+[04:07:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ogrezem has made the advancement [Monster Hunter]
+[04:09:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Changing to clear weather
+[04:09:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set the time to 0
+[04:10:58] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2215ms behind, skipping 44 tick(s)
+[04:11:41] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2258ms behind, skipping 45 tick(s)
+[04:13:14] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2388ms behind, skipping 47 tick(s)
+[04:14:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 'ogrezem' is not a valid number
+[04:14:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Set ogrezem's game mode to Creative Mode
+[04:23:42] [pool-4-thread-1/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [LP] Set * to true for owner in context global.
+[04:23:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ogrezem: Toggled downfall]
+[04:23:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ogrezem: Set the time to 24000]
+[04:29:04] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2241ms behind, skipping 44 tick(s)
+[04:31:18] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2121ms behind, skipping 42 tick(s)
+[04:34:17] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2094ms behind, skipping 41 tick(s)
+[04:39:13] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2157ms behind, skipping 43 tick(s)
+[04:39:29] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2128ms behind, skipping 42 tick(s)
+[04:39:45] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2023ms behind, skipping 40 tick(s)
+[04:42:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[04:42:51] [Server thread/INFO] [luckperms]: Closing storage...
+[04:42:52] [Server thread/INFO] [luckperms]: Shutting down internal scheduler...
+[04:42:52] [Server thread/INFO] [luckperms]: Goodbye!
+[04:42:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[04:42:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[04:42:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[04:42:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/0
+[04:42:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM-1'/-1
+[04:42:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'DIM1'/1
+[04:42:55] [Server thread/INFO] [Sponge]: Unloading world [world] (minecraft:overworld/0)
+[04:42:55] [Server thread/INFO] [Sponge]: Unloading world [DIM-1] (minecraft:nether/-1)
+[04:42:55] [Server thread/INFO] [Sponge]: Unloading world [DIM1] (minecraft:the_end/1)

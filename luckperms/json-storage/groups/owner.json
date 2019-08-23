@@ -1,0 +1,13 @@
+{
+  "name": "owner",
+  "permissions": [
+    {
+      "permission": "*",
+      "value": true
+    },
+    {
+      "permission": "luckperms.autoop",
+      "value": true
+    }
+  ]
+}
